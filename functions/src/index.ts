@@ -7,3 +7,9 @@ import * as functions from "firebase-functions";
 //   functions.logger.info("Hello logs!", {structuredData: true});
 //   response.send("Hello from Firebase!");
 // });
+
+export const scheduledTest = functions.pubsub.schedule("every 1 minutes")
+    .onRun((context) => {
+      const date: Date = new Date();
+      console.log("Date = " + date.toUTCString());
+    });

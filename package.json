@@ -1,0 +1,24 @@
+{
+  "name": "vonderfinanace-backend",
+  "version": "1.0.0",
+  "description": "## Deployment",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^7.29.0",
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardneotius/vonderfinanace-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardneotius/vonderfinanace-backend/issues"
+  },
+  "homepage": "https://github.com/richardneotius/vonderfinanace-backend#readme"
+}
